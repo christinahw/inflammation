@@ -1,0 +1,500 @@
+   54  cd ../
+   55  file youfoundit.txt
+   56  locate youfoundit.txt
+   57  cd msu_al340-master
+   58  ls
+   59  cd hidden
+   60  ls
+   61  ls tmp1 tmp2 tmp3
+   62  ls *
+   63  ls */*
+   64  cat
+   65  /anaconda/bin/ipython_mac.command ; exit;
+   66  pwd
+   67  ls
+   68  cd Desktop/
+   69  ls
+   70  cd Data_Carpentry_2015_PNW/
+   71  ls
+   72  cd spreadsheets/
+   73  ls
+   74  cat messy1.xlsx 
+   75  1;2c
+   76  grep
+   77  grep mm
+   78  grep mm messy1.xlsx 
+   79  grep dress messy1.xlsx 
+   80  ls
+   81  ls
+   82  grep dress messy1.csv 
+   83  ..
+   84  cd ..
+   85  ls
+   86  cd msu_al340-master
+   87  ls
+   88  ls -l
+   89  ls *
+   90  cd data
+   91  ls *
+   92  ls */*
+   93  ls -l */*
+   94  cd Frank_Richard/
+   95  ls
+   96  ls -l
+   97  cat data_212
+   98  wc
+   99  wc data_212
+  100  head
+  101  head -n 2 data_212
+  102  cat data_221
+  103  cat data_224
+  104  grep Subject
+  105  grep Subject data_212
+  106  cat data_212
+  107  grep CI
+  108  grep CI data_212
+  109  grep data *
+  110  great robynSpice Beet data_*
+  111  grep robynSpice Beet data_*
+  112  cd ..
+  113  ls
+  114  grep robynSpice *
+  115  grep robynSpice data_*
+  116  grep robynSpice*
+  117  ls */* robynSpice
+  118  grep -i robyspice */*
+  119  grep robynSpice */*
+  120  pwd
+  121  ls
+  122  cd Lawrence
+  123  ls
+  124  cat Lawrence
+  125  cd ..
+  126  cd ..
+  127  grep robynSpice *
+  128  grep robynSpice Frank_Richard
+  129  ls
+  130  cd data/
+  131  ls
+  132  grep robynSpice Frank_Richard/
+  133  grep robynSpice *
+  134  grep robynSpice */*
+  135  grep beyonce *
+  136  grep beyonce */*
+  137  grep beyonce */* | wc
+  138  ls
+  139  ls */*
+  140  ls */* | wc
+  141  grep */* | wc
+  142   ls */*
+  143  ls */* | wc
+  144  wc -l
+  145  ls */* | wc -l
+  146  cmd
+  147  pwd
+  148  ../..
+  149  cd ../..
+  150  cd..
+  151  cd ..
+  152  cd
+  153  ls
+  154  cd Desktop
+  155  ls
+  156  cd Data_Carpentry_2015_PNW/
+  157  git clone https://github.com/christinahw/PNW_DBC.git
+  158  git clone https://github.com/christinahw/PNW_DBC.git
+  159  git clone https://github.com/christinahw/PNW_DBC.git
+  160  sudo yum install curl-devel expat-devel gettext-devel     openssl-devel zlib-devel
+  161  udo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext     libz-dev libssl-dev
+  162  sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext     libz-dev libssl-dev
+  163  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  164  brew apt-get
+  165  brew install apt-get
+  166  brew install yum
+  167  sudo yum install curl-devel expat-devel gettext-devel     openssl-devel zlib-devel
+  168  git
+  169  git clone https://github.com/christinahw/PNW_DBC.git
+  170  git status
+  171  ls
+  172  cd PNW_DBC/
+  173  ls
+  174  git status
+  175  touch test.txt
+  176  ls
+  177  git status
+  178  git add --all
+  179  git status
+  180  git commit -m "made changes"
+  181  git log
+  182  git push
+  183  cd ../..
+  184  ls
+  185  cd Data_Carpentry_2015_PNW/
+  186  ls
+  187  cd spreadsheets/
+  188  ls
+  189  mv messy1.csv cd ../..
+  190  mv messy1.xlsx 
+  191  cd ../
+  192  ls
+  193  cd PNW_DBC/
+  194  ls
+  195  git commit
+  196  git add --all
+  197  git commit
+  198  ls
+  199  cd des
+  200  cd Desktop/
+  201  ls
+  202  cd Data_Carpentry_2015_PNW/
+  203  ls
+  204  cd PNW
+  205  cd PNW_DBC/
+  206  git add
+  207  git add --all
+  208  git commit -m "fun"
+  209  git commit
+  210  git push
+  211  git status
+  212  mv messy1.xlsx ../
+  213  git pull
+  214  cd ..
+  215  git clone https://github.com/christinahw/PNW_DC.git
+  216  ls
+  217  git status
+  218  ls
+  219  cd PNW_DC
+  220  ls
+  221  git status
+  222  git add hello.txt 
+  223  git commit -m "this is a new change"
+  224  git status
+  225  git push --all
+  226  git status
+  227  ls
+  228  git status
+  229  git clone https://github.com/cmacdonell/msu_emails.git
+  230  ls
+  231  ls
+  232  cd msu_emails/
+  233  ls
+  234  wc MSU_data_census.csv 
+  235  wc MSU_ne
+  236  wc MSU_newlines.csv 
+  237  cat MSU_newlines.csv 
+  238  ls
+  239  cat MSU_data_census.csv 
+  240  cat MSU_data_census.csv | tr 
+  241  cat MSU_data_census.csv | tr '\r' '\n'
+  242  cat MSU_data_census.csv | tr '\r' '\n'
+  243  cat MSU_data_census.csv | tr '\r' '\n'
+  244  ls 
+  245  cat MSU_newlines.csv | tr '\r' '\n'
+  246  cat MSU_newlines.csv | tr '\r' '\n'
+  247  pqs
+  248  pwd
+  249  cd
+  250  ls
+  251  cd Desktop/
+  252  l
+  253  ls
+  254  cd Data_Carpentry_2015_PNW/
+  255  ls
+  256  cd ..
+  257  ls
+  258  cd .
+  259  ls
+  260  pwd
+  261  cd
+  262  ls
+  263  curl -O https://dl.dropboxusercontent.com/u/37108785/bash_profile
+  264  ls
+  265  source bash_profile 
+  266  ls
+  267  cd Documents/
+  268  ls
+  269  ls
+  270  s
+  271  ls
+  272  cd
+  273  ls
+  274  ca bash_profile 
+  275  vim bash_profile 
+  276  source bash_profile 
+  277  ls
+  278  cd Documents/
+  279  ls
+  280  echo $PATH
+  281  ls
+  282  ls
+  283  cd
+  284  cat bash_profile >> .bash_profile 
+  285  ls -al
+  286  ls -al .bash_profile 
+  287  sudo chown Christina .bash_profile 
+  288  ls -al .bash_profile 
+  289  cat bash_profile >> .bash_profile 
+  290  rm bash_profile 
+  291  exit
+  292  ls
+  293  cd Documents/
+  294  ls
+  295  exit
+  296  ls
+  297  /anaconda/bin/ipython_mac.command ; exit;
+  298  git --version
+  299  $ git --version
+  300  git  --version
+  301  git --version
+  302  who am i
+  303  ls
+  304  ls
+  305  who am i
+  306  echo $shell
+  307  echo $SHELL
+  308  ls
+  309  pwd
+  310  mkdir
+  311  mkdir dir
+  312  ls
+  313  cd Desktop
+  314  mkdir
+  315  ls
+  316  mkdir Software Carpentry Workshop Aug 2015
+  317  mkdir Software_Carpentry
+  318  ls
+  319  mv data
+  320  mv data/
+  321  mv data/ Software_Carpentry/
+  322  ls
+  323  ls Software_Carpentry/
+  324  ls 
+  325  ls Bootcamp/
+  326  dir
+  327  ls
+  328  cd dir Bootcamp/
+  329  cd Bootcamp/
+  330  unzip shell-novice-data.zip 
+  331  ls
+  332  cd Desktop/
+  333  ls
+  334  cd Bootcamp/
+  335  cd 
+  336  ls
+  337  cd Desktop/Bootcamp/
+  338  ls
+  339  cd data/
+  340  ls
+  341  cd
+  342  ls -al
+  343  ls -a
+  344  nano .bash_profile 
+  345  ls
+  346  cd Desktop/
+  347  ls
+  348  nano bash_profile 
+  349  cd
+  350  nano .bash_profile 
+  351  nano .bash_profile 
+  352  ls
+  353  cd Desktop/
+  354  ls
+  355  cd Bootcamp/
+  356  unzip shell-novice-data.zip 
+  357  rm shell-novice-data.zip 
+  358  ls
+  359  cd
+  360  ls
+  361  cd Downloads/
+  362  ls
+  363  mv shell-novice-data.zip 
+  364  ls
+  365  cd
+  366  ls
+  367  cd Desktop/
+  368  cd Bootcamp/
+  369  cd ..
+  370  cd..
+  371  ls
+  372  cd Bootcamp/
+  373  ls
+  374  cd dir
+  375  cd-
+  376  cd - 
+  377  pwd
+  378  cd nelle/
+  379  cd Bootcamp/
+  380  ls
+  381  cd nelle/
+  382  cd data/
+  383  cd nelle
+  384  ls
+  385  cd users
+  386  ls
+  387  cd nelle
+  388  ls
+  389  ls --color
+  390  ls -F
+  391  ls -l
+  392  ls --color
+  393  ls -ls
+  394  ls -lsr
+  395  ls -lrt
+  396  man ls
+  397  ls
+  398  n
+  399  cd ..
+  400  cd ..
+  401  cd -
+  402  cd -
+  403  cd -
+  404  ls
+  405  cd nelle/
+  406  history
+  407  ls -F
+  408  mkdir thesis
+  409  ls -F
+  410  nano test..
+  411  nano test.txt
+  412  ls
+  413  mv t
+  414  mv test.txt thesis/
+  415  ls thesis/
+  416  cd
+  417  cd -
+  418  ls
+  419  cd thesis/
+  420  ls
+  421  ls -F
+  422  nano test.txt 
+  423  history
+  424  ls
+  425  mv test.txt /nelle
+  426  ls
+  427  ls -F
+  428  rm test.txt 
+  429  cd ..
+  430  rm thesis/
+  431  rm thesis/
+  432  rmdir thesis/
+  433  ls
+  434  mkdir thesis
+  435  cd the
+  436  cd thesis/
+  437  nano short.txt
+  438  ls
+  439  ls -f
+  440  ls -F
+  441  rm short.txt 
+  442  ls
+  443  ls
+  444  cd ..
+  445  ls
+  446  ls
+  447  rm -r thesis/
+  448  ls
+  449  ls
+  450  pwd
+  451  mkdir thesis
+  452  cd thesis
+  453  nano text.xt
+  454  cd ..
+  455  mv thesis/text.txt .
+  456  ls
+  457  mv thesis/text.xt
+  458  mv thesis/text.txt 
+  459  mv thesis/text.txt .
+  460  ls
+  461  cp text.txt thesis/text2.txt
+  462  ls thesis/
+  463  ls thesis/ text.txt
+  464  ls
+  465  ls thesis/
+  466  ls text.txt
+  467  ls pub elements/
+  468  cd data/
+  469  ls pdb elements/
+  470  ls l
+  471  ls -l
+  472  ls -l pdb
+  473  cd ..
+  474  rm text.txt 
+  475  ls
+  476  ls text.txt
+  477  cd molecules/
+  478  ls
+  479  ls -l
+  480  cd Desktop/
+  481  ls -l
+  482  history
+  483  ls
+  484  cd Bootcamp/
+  485  ls
+  486  cd data/
+  487  ls
+  488  cd users/
+  489  ls
+  490  cd nelle/
+  491  ls
+  492  cd molecules/
+  493  ls
+  494  ls *
+  495  ls *.pdb
+  496  ls c*.pdb
+  497  ls p*.pdb
+  498  ls ??????
+  499  ls ??????.pdb
+  500  wc
+  501  sort -n words.txt
+  502  sort -n words.txt | head -l
+  503  sort -n words.txt | head -l
+  504  sort -n words.txt | head -1
+  505  sort -n words.txt | head -2
+  506  sort
+  507  head -1
+  508  words.txt | head -1
+  509  sort -n words.txt | head -1
+  510  head
+  511  head cubane.pdb 
+  512  head -1 cubane.pdb 
+  513  ls
+  514  cd ..
+  515  ls
+  516  cd no
+  517  cd north-pacific-gyre/
+  518  ls
+  519  cd 2012-07-03/
+  520  ls
+  521  wc -l *.txt
+  522  sort -l | head -5
+  523  sort -l | head -5 *.txt
+  524  wc -l *.txt | sort -n| tail -5
+  525  ls
+  526  ls *[AB]
+  527  ls *[AB].txt
+  528  cat *.txt
+  529  ls
+  530  cd ..
+  531  ls
+  532  cd ..
+  533  ls
+  534  cd molecules/
+  535  ls
+  536  cat cubane.pdb 
+  537  head -n 2 cubane.pdb 
+  538  head -n 2 cubane.pdb | [ ^Z] l -2
+  539  head -n 2 cubane.pdb | [^z] l2
+  540  head -n 2 cubane.pdb | ^z l -1
+  541  head -n 2 cubane.pdb |[ ^z] l -1
+  542  head -n 2 cubane.pdb
+  543  tail -1
+  544  tail -1 cubane.pdb 
+  545  ls
+  546  head -n 2 cubane.pdb | tail -n 1
+  547  grep
+  548  grep ATOM cubane.pdb 
+  549  grep ATOM *.pdb
+  550  grep ATOM *.pdb | wc -l
+  551  grep ATOM cubane.pdb
+  552  history
+  553  history > swc_history.txt
